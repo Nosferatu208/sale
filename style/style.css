@@ -1,0 +1,366 @@
+@font-face {
+  font-family: 'Exo2.0-ExtraLight';
+  src: url('../fonts/Exo2.0-ExtraLight.svg#Exo2.0-ExtraLight') format('svg'),
+       url('../fonts/Exo2.0-ExtraLight.ttf') format('truetype'),
+       url('../fonts/Exo2.0-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo2.0-Bold';
+  src: url('../fonts/Exo2.0-Bold.svg#Exo2.0-Bold') format('svg'),
+       url('../fonts/Exo2.0-Bold.ttf') format('truetype'),
+       url('../fonts/Exo2.0-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo2.0-Regular';
+  src: url('../fonts/Exo2.0-Regular.svg#Exo2.0-Regular') format('svg'),
+       url('../fonts/Exo2.0-Regular.ttf') format('truetype'),
+       url('../fonts/Exo2.0-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html {
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.wrapper {
+    max-width: 1920px;
+    background: url("../img/bg-op.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.title_white {
+    font-family: 'Exo2.0-Bold';
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1.2px;
+}
+
+.title_red {
+    font-family: 'Exo2.0-Bold';
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #e3484c;
+}
+
+.title_black {
+    font-family: 'Exo2.0-Bold';
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+/*------------------header--------------------*/
+
+.header {
+    font-size: 0;
+    background-color: #3f8bd1;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 96px;
+    padding: 0 20px;
+}
+
+.header-content-chart {
+    font-family: 'Exo2.0-ExtraLight';
+    max-width: 223px;
+    height: 100%;
+    margin-right: 21px;
+    float: left;
+}
+
+.chart-phone {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding-left: 25px;
+    font-family: 'Exo2.0-ExtraLight';
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.chart-days {
+    font-family: 'Exo2.0-ExtraLight';
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: -1.1px;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 3px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.header-content-menu {
+    display: inline-block;
+    height: 96px;
+    font-family: 'Exo2.0-ExtraLight';
+    font-size: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 96px;
+    text-transform: uppercase;
+}
+
+.header-content-menu div {
+    border-radius: 7px;
+    font-size: 16px;
+    position: relative;
+}
+
+.header-content-menu div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 4px;
+    background: #01428a;
+    margin-top: -28px;
+    margin-left: 3px;
+}
+
+.header-content-menu div:hover {
+    background: #0050a7;
+    transition: 0.5s linear;
+}
+
+.header-content-menu div:hover:after {
+    opacity: 0;
+}
+
+.header-content-menu-selection {
+    display: inline-block;
+    width: 211px;
+    height: 96px;
+}
+
+.header-content-menu-hot {
+    display: inline-block;
+    width: 202px;
+    height: 96px;
+}
+
+.header-content-menu-calc {
+    display: inline-block;
+    height: 96px;
+    width: 222px;
+}
+
+.header-content-menu-contacts {
+    display: inline-block;
+    height: 96px;
+    width: 99px;
+}
+
+.header-content-logo {
+    background-image: url(../img/background-house.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 342px 25px 97px 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content-logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-content-logo-sale {
+    margin: 0 auto;
+    padding-top: 1px;
+    background-color: #1158a6;
+    opacity: 0.8;
+    max-width: 1078px;
+    min-height: 195px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-content-logo-sale-text1 {
+    font-family: 'Exo2.0-Bold';
+    font-size: 62.5px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    line-height: 68px;
+    margin-top: 4px;
+    margin-left: -14px;
+}
+
+.header-content-logo-sale-text2 {
+    
+    margin-left: -4px;
+}
+
+.header-content-logo-sale-text3 {
+    font-family: 'Exo2.0-Regular';
+    font-size: 31px;
+    margin-top: 11px;
+    margin-left: -2px;
+    letter-spacing: -0.6px;
+}
+
+/*-----------------content------------------*/
+
+.content_about {
+    background-image: url(../img/content_about.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+    display: block;
+}
+
+.content_about_block_short {
+    display: inline-flex;
+
+}
+
+.content_about_block_long {
+    margin-top: 26px;
+}
+
+.content_about_circle {
+    display: inline-block;
+    height: 206px;
+    width: 206px;
+    border-radius: 50%;
+    border: 2px dotted #e7ecf1;
+    color: #fff;
+    font-family: 'Exo2.0-Regular';
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+}
+
+.content_db {
+    display: inline-block;
+    font-family: 'Exo2.0-Regular';
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.circle_text_s {
+    font-size: 10px;
+}
+
+.circle_text_m1 {
+    font-size: 12px;
+}
+
+.circle_text_b {
+    font-size: 12px;
+}
+
+.circle_text_b2 {
+    font-size: 28px;
+}
+
+.circle_text_b3 {
+    font-size: 28px;
+}
+
+.circle_text_b4 {
+    font-size: 28px;
+}
+
+.circle_text_m2 {
+    font-size: 18px;
+}
+
+.content_db_s_u {
+    font-family: 'Exo2.0-Bold';
+    font-size: 30px;
+    border-bottom: dotted 2px #fff;
+    width: unset;
+    padding: 67px 49px 0 49px;
+}
+
+.content_db_s_d {
+    
+}
+
+.content_db_l_u {
+    display: block;
+    font-family: 'Exo2.0-Bold';
+    font-size: 30px;
+    border-bottom: dotted 2px #fff;
+    padding: 0px 119px;
+}
+
+.content_db_l_d {
+    display: block;
+    height: 50px;
+}
+
+/*------------------steps-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

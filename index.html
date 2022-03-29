@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-content">
+                <div class="header-content-chart">
+                    <div class="chart-phone" style="background-image: url(img/phone.png)">
+                        <span>8 800 250-240-9</span>
+                    </div>
+                    <div class="chart-days" style="background-image: url(img/clock.png)">
+                        Режим работы:<br>пн-вс, 10:00-19:00
+                    </div>
+                </div>
+                <div class="header-content-menu">
+                    <div class="header-content-menu-selection">
+                        Подбор по&nbsp;параметрам
+                    </div>
+                    <div class="header-content-menu-hot">
+                        Горячее предложение
+                    </div>
+                    <div class="header-content-menu-calc">
+                        Ипотечный калькулятор
+                    </div>
+                    <div class="header-content-menu-contacts">
+                        Контакты
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="header-content-logo">
+            <div class="header-content-logo-sale">
+                <div class="header-content-logo-sale-text1">
+                    Продажа квартир
+                </div>
+                <div class="title_white header-content-logo-sale-text2">
+                    в&nbsp;новостройках от&nbsp;застройщика
+                </div>
+                <div class="header-content-logo-sale-text3">
+                    Официальный отдел продаж компании &laquo;Мир Новостроек&raquo;
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="content_about">
+               <div class="content_about_block_short">
+                    <div class="content_about_circle">
+                        <div class="circle_text_s">Сэкономить</div>
+                        <div class="circle_text_m1">более</div>
+                        <div class="circle_text_b">30</div>
+                        <div class="circle_text_m2">млн.руб.</div>
+                    </div>
+                    <div class="content_db">
+                        <div class="content_db_s_u">Мы помогли</div>
+                        <div class="content_db_s_d"></div>
+                    </div>
+                    <div class="content_about_circle">
+                        <div class="circle_text_s">Оформить</div>
+                        <div class="circle_text_m1">более</div>
+                        <div class="circle_text_b2">4000</div>
+                        <div class="circle_text_m2">ипотек</div>
+                    </div>
+               </div>
+               <div class="content_about_block_long">
+                    <div class="content_about_circle">
+                        <div class="circle_text_b">68</div>
+                        <div class="circle_text_m1">жилых</div>
+                        <div class="circle_text_m2">комплексов</div>
+                    </div>
+                    <div class="content_db">
+                        <div class="content_db_l_u">Мы сотрудничаем</div>
+                        <div class="content_db_l_d">Новостройки только по ФЗ 214</div>
+                    </div>
+                    <div class="content_about_circle">
+                        <div class="circle_text_b">40</div>
+                        <div class="circle_text_m2">застройщиков</div>
+                    </div>
+               </div>
+               <div class="content_about_block_short">
+                    <div class="content_about_circle">
+                        <div class="circle_text_b3">4 734</div>
+                        <div class="circle_text_m1">квартиры</div>
+                    </div>
+                    <div class="content_db">
+                        <div class="content_db_s_u">Через нас продано</div>
+                    </div>
+                    <div class="content_about_circle">
+                        <div class="circle_text_m1">более</div>
+                        <div class="circle_text_b4">60 000<span>м2</span></div>
+                    </div>
+               </div>
+
+            </div>
+        </div>
+
+        <div class="steps">
+            <div class="steps_title">
+                <div class="title_white">4 шага к получению</div>
+                <div class="steps_title_d">персональной подборки квартир</div>
+            </div>
+            <div class="steps_block">
+                <div class="steps_block_left">
+                    <div class="steps_block_left_title">
+                        <div class="steps_block_left_title_st">3 шаг</div>
+                        <div class="steps_block_left_title_term">Выберите срок сдачи жк</div>
+                    </div>
+                    <div class="steps_block_left_radio">
+                        <input type="radio" id="ready" name="term" value="is_ready" checked>
+                        <label for="is_ready">жк уже сдан</label>
+                        <input type="radio" id="huey" name="term" value="ready_16">
+                        <label for="ready_16">жк сдается в 2016 г.</label>
+                        <input type="radio" id="huey" name="term" value="ready_17">
+                        <label for="ready_17">жк сдается  в 2016-2017 г.</label>
+                        <input type="radio" id="huey" name="term" value="ready_18">
+                        <label for="ready_18">жк сдается  в 2017-2018 г.</label>
+                        <input type="radio" id="huey" name="term" value="ready_20">
+                        <label for="ready_20">жк сдается  в 2019-2020 г.</label>
+                    </div>
+                </div>
+                <div class="steps_block_right">
+                    <div class="steps_block_right_title">Оставьте контактные свои данные,<br>чтобы наш менеджер мог связаться с&nbsp;Вами.</div>
+                    <form action="*">
+                        <input type="text" id="name" name="input" 
+                        minlength="3" maxlength="12" placeholder="имя">
+                        <input type="tel" id="phone" name="phone"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        minlength="11" maxlength="11" placeholder="телефон"
+                        required>
+                        <input type="submit" value="Получить персональную подборку квартир">
+                    </form>
+                    <div class="steps_block_right_waiting">В&nbsp;течении 20&nbsp;минут ожидайте звонка. Наш менеджер перезвонит вам с&nbsp;готовой подборкой квартир.</div>
+                        
+                    
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

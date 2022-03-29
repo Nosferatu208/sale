@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Exo2.0-Bold';
+  src: url('Exo2.0-Bold.svg#Exo2.0-Bold') format('svg'),
+       url('Exo2.0-Bold.ttf') format('truetype'),
+       url('Exo2.0-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'exo-20-bold_[allfont.ru]';
+  src: url('exo-20-bold_[allfont.ru].eot');
+  src: url('exo-20-bold_[allfont.ru].eot?#iefix') format('embedded-opentype'),
+       url('exo-20-bold_[allfont.ru].woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
